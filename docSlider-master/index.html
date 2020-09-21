@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prjct-samwest.github.io/docSlider/">
+    <meta property="og:image" content="https://prjct-samwest.github.io/docSlider/data/ogp.png">
+    <meta property="og:site_name" content="docSlider.js :: Change the web sections to a one-page scroll.">
+    <meta property="og:title" content="docSlider.js :: Change the web sections to a one-page scroll.">
+    <meta property="og:description" content="docSlider.js is a JavaScript plugin that works without jQuery.Change the web sections to a one-page scroll.">
+
+    <title>Thor FM Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Timmana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="docSlider.css">
+    <link rel="stylesheet" href="data/style.css">
+    <link rel="stylesheet" href="cssnac.css">
+    <script src="https://kit.fontawesome.com/c44299854e.js" crossorigin="anonymous"></script>
+    <!-- unpkg -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <!-- jsdelivr -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body data-barba="wrapper">
+  <main data-barba="container" data-barba-namespace="home">
+
+  <div class="container">
+    <div class="lines-container">
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+    </div>
+    <ul class="menu">
+      <li><a href="#" class="outer">ABOUT</a></li>
+      <li><a href="#" class="outer blog">BLOG</a>
+        <ul class="blog-child">
+          <li><a href="#" class="inner">TECH</a></li>
+          <li><a href="#" class="inner">PROJEKT</a></li>
+          <li><a href="#" class="inner">GAMING</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="outer contact">CONTACT</a>
+        <ul class="contact-child">
+          <li><a href="#" class="inner">Email</a></li>
+          <li><a href="#" class="inner">Social Media</a></li>
+          <li><a href="#" class="inner">Address</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="outer">CV</a></li>
+    </ul>
+    <div class="pointer"></div>
+  </div>
+
+<div class="docSlider">
+
+  <section class="frontscreen">
+    <video id="balen" autoplay loop>
+      <source src="../img/balen.mp4" type="video/mp4" >
+      <source src="balen.mp4" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+      <div class="Outer">
+          <div class="Inner">
+              <h3>Thor Marcussen</h3>
+              <h2 style="font-size: 130px; opacity: 99%;">PORTFOLIO</h2>
+              <p id="front">UI/UX Designer, From Denmark</p>
+
+              <div id="arrow" style="font-size: 4vw; color="black"" >
+                <i class="fas fa-angle-down"></i>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <section class="Mv Start">
+              <img src="../img/trendbil5.png" alt="" class="billtrend">
+              <img src="../img/trendbil2.png" alt="" class="billtrend2">
+      <div id="bill">
+        <h3 id="optext">Branding <br>
+        Design <br>
+        HTML & CSS</h3>
+        <h4 href="" >Web design, <br> Trendlog</h4>
+      </div>
+        <div class="Outer1">
+
+            <div class="Inner">
+                <h2 class="Mv-title"><a href="trendlog.html">
+                  TRENDLOG<span>https://trendlog.dk/</span></a></h2>
+                <p><br>
+                    </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Intro">
+        <div class="Outer">
+            <div class="Inner">
+                <h2>House Of Code</h2>
+                <p>App delevepoer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscin</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Key">
+        <div class="Outer1">
+            <div class="Inner">
+                <h2>NEXT</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscin.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscinzLorem ipsum dolor.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="anchor" class="Anchor">
+        <div class="Outer">
+            <div class="Inner">
+                <h2>Support for links</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscinLorem ipsum dolor sit amet, consectetur adipiscin.</p>
+                <p><a href="#anchor" target="_blank">Let's try it.</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Mv Start">
+
+        <div class="Outer1">
+            <div class="Inner">
+
+                <h2 class="Mv-title">ABOUT<span>THOR FAERK MARCUSSEN</span></h2>
+
+            </div>
+        </div>
+    </section>
+</div>
+<script src="docSlider.min.js"></script>
+<script src="nav.js"></script>
+<script src="barbar.js"></script>
+<script>docSlider.init();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</main>
+</body>
+</html>

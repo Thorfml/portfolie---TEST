@@ -1,0 +1,179 @@
+.lines-container{
+    width: 100px;
+    margin-left: auto;
+    cursor: pointer;
+    border-radius: 1px;
+    z-index: 600;
+    position: fixed;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.line{
+    height: 3px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: black;
+    margin-right: auto;
+    transition: width 0.5s ease-out;
+
+}
+
+.line-1{
+    width: 50px;
+}
+.line-2{
+    width: 40px;
+}
+.line-3{
+    width: 30px;
+}
+.lines-container:hover .line-1{
+    width: 30px;
+    background-color: black;
+}
+.lines-container:hover .line-2{
+    width: 40px;
+    background-color: black;
+}
+.lines-container:hover .line-3 {
+    width: 50px;
+    background-color: black;
+}
+
+.menu{
+    list-style-type: none;
+    border-bottom: 1px solid  black;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s linear;
+    z-index: 100;
+    position: fixed;
+    margin-left: 5vw;
+    margin-top: 1vw;
+
+}
+
+.blog-child, .contact-child{
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s linear;
+}
+a.outer{
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color:  white;
+    padding: 1em;
+    transition: all 0.5s linear;
+}
+
+a.inner{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    display: block;
+    padding: 0.5em 3em;
+    opacity: 0.82;
+    transition: all 0.5s linear;
+}
+
+a.inner:hover{
+    opacity: 1;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    }
+
+/* Telefon */
+@media screen and (max-width: 667px) {
+
+  .lines-container{
+      width: 100px;
+      margin-left: auto;
+      cursor: pointer;
+      border-radius: 1px;
+      z-index: 600;
+      position: fixed;
+      margin-left: 1vw;
+      margin-top: 1vw;
+  }
+
+  .line{
+      height: 2px;
+      margin: 4px;
+      border-radius: 50px;
+      background-color: black;
+      margin-right: auto;
+      transition: width 0.5s ease-out;
+
+  }
+
+  .line-1{
+      width: 35px;
+  }
+  .line-2{
+      width: 25px;
+  }
+  .line-3{
+      width: 15px;
+  }
+  .lines-container:hover .line-1{
+      width: 15px;
+      background-color: black;
+  }
+  .lines-container:hover .line-2{
+      width: 25px;
+      background-color: black;
+  }
+  .lines-container:hover .line-3 {
+      width: 35px;
+      background-color: black;
+  }
+
+  .menu{
+      list-style-type: none;
+      border-bottom: 1px solid  black;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s linear;
+      z-index: 100;
+      position: fixed;
+      margin-left: 15vw;
+      margin-top: 1vw;
+
+  }
+
+  .blog-child, .contact-child{
+      max-height: 0px;
+      overflow: hidden;
+      transition: all 0.5s linear;
+  }
+  a.outer{
+      display: block;
+      color: black;
+      text-decoration: none;
+      background-color:  white;
+      padding: 1em;
+      transition: all 0.5s linear;
+      font-size: 10px;
+  }
+
+  a.inner{
+      text-decoration: none;
+      color: black;
+      background-color: white;
+      display: block;
+      padding: 0.5em 3em;
+      opacity: 0.82;
+      transition: all 0.5s linear;
+      font-size: 10px;
+  }
+
+  a.inner:hover{
+      border:1px solid wheat;
+      opacity: 1;
+  }
+
+
+
+}
